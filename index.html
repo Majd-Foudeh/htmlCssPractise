@@ -3,28 +3,30 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="this is test meta description">
+    <meta name="description" content="this is test meta description" />
     <title>Document</title>
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
+    <div id="parent">
+      <em>orange academy</em>
+      <p>orange academy</p>
+      <p>orange academy</p>
+    </div>
     <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/O-QgbPczoqM?si=eed0uLWE1aKpJtFl" title="YouTube video player" frameborder="0"  ></iframe> -->
 
-
     <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/M4RZ3Z8MFcg?si=joV0MUGwBrTqQB5a" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>    <div class="back"></div> -->
-    <div style="display: flex; flex-direction: column;"  >
-<div>
-
-  <input type="radio" name="learn" id="m"><label for="m">majd</label> 
-</div>
-      <input type="radio" name="learn" checked id="">HIND
-      <input type="radio" name="learn" checked id="">majd + hind
+    <div style="display: flex; flex-direction: column">
+      <div>
+        <input type="radio" name="learn" id="m" /><label for="m">majd</label>
+      </div>
+      <input type="radio" name="learn" checked id="HIND" />HIND
+      <input type="radio" name="learn" checked id="" />majd + hind
     </div>
 
-    <input type="checkbox" name="learn" id="">majd 
-    <input type="checkbox" name="learn" checked id="">HIND
-    <input type="checkbox" name="learn" checked id="">majd + hind
-
+    <input type="checkbox" name="learn" id="" />majd
+    <input type="checkbox" name="learn" checked id="" />HIND
+    <input type="checkbox" name="learn" checked id="" />majd + hind
 
     <select name="country " id="">
       <option value="">jordan</option>
@@ -32,8 +34,16 @@
       <option value="">seria</option>
       <option value="">lebanon</option>
     </select>
-    <input type="image" src="https://images.pexels.com/photos/17900125/pexels-photo-17900125/free-photo-of-scenic-view-of-a-seacoast.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt=""Sign up”" width="72" height="18">
-    <textarea name="contact" id="contact" placeholder="majd" cols="30" rows="10"></textarea>
+    <input type="image"
+    src="https://images.pexels.com/photos/17900125/pexels-photo-17900125/free-photo-of-scenic-view-of-a-seacoast.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+    alt=""Sign up”" width="72" height="18">
+    <textarea
+      name="contact"
+      id="contact"
+      placeholder="majd"
+      cols="30"
+      rows="10"
+    ></textarea>
     <table>
       <thead>
         <tr>
@@ -46,7 +56,10 @@
         <tr>
           <td>majd</td>
           <td>hind</td>
-          <td style="vertical-align: bottom;" rowspan="3">asma mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm</td>
+          <td style="vertical-align: bottom" rowspan="3">
+            asma
+            mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+          </td>
         </tr>
         <tr>
           <td>majd</td>
@@ -72,18 +85,16 @@
     <em>majd </em>
     <i>majd </i>
     <fieldset>
-      <legend>majd </legend>
+      <legend>majd</legend>
       <p style="letter-spacing: 0.2em; line-height: 5em">majd jamal foudeh</p>
-
     </fieldset>
     <img
-    onmouseover="changeImage(this.id)"
-    id="duck"
+      onmouseover="changeImage(this.id)"
+      id="duck"
       style="display: block; margin: auto"
       src="https://images.pexels.com/photos/17427379/pexels-photo-17427379/free-photo-of-a-pelican-by-a-sea.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
       alt="duck"
       loading="lazy"
-      
     />
     <span>majd</span>
     <a href="./about.html#id" target="_blank">about us page </a>
@@ -91,8 +102,8 @@
     <hr />
     <hr />
     <img
-    id="mapImg"
-    onclick="changeImage(this.id)"
+      id="mapImg"
+      onclick="changeImage(this.id)"
       src="https://www.w3schools.com/html/workplace.jpg"
       alt="Workplace"
       usemap="#workmap"
@@ -122,8 +133,12 @@
       <li>jamal</li>
       <li>HIND</li>
     </ol>
-    <script>function changeImage(id){
-      document.getElementById(id).src="https://images.pexels.com/photos/18378055/pexels-photo-18378055/free-photo-of-orange-cat-looking-for-food.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
-    }</script>
+    <script>
+      function changeImage(id) {
+        document.getElementById(id).src =
+          'https://images.pexels.com/photos/18378055/pexels-photo-18378055/free-photo-of-orange-cat-looking-for-food.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load';
+      }
+    </script>
+    <script src="./khara.js"></script>
   </body>
 </html>
