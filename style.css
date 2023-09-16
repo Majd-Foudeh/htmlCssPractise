@@ -1,0 +1,51 @@
+p.test {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-indent: 1em;
+  border: 3px solid red;
+  padding: 52px;
+  border-radius: 5px;
+  display: inline-block;
+}
+div.back {
+  height: 90vh;
+  background-image: url("https://images.pexels.com/photos/16705973/pexels-photo-16705973/free-photo-of-aerial-view-of-a-modern-illuminated-city-at-night.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load");
+  background-size: cover;
+  background-position: top right;
+  background-attachment: fixed;
+}
+body {
+  margin: 0;
+}
+li {
+  list-style-type: none;
+}
+.test2 {
+  display: inline;
+}
+div + p {
+  color: red;
+}
+td {
+  padding: 10px;
+  width: 200px;
+  color: red;
+  /* margin: 10px; */
+  border: 5px solid red;
+  border-radius: 5px;
+}
+table {
+  width: 500px;
+  border-radius: 50px;
+  border-spacing: 10px;
+  /* border-collapse: collapse; */
+}
+iframe {
+  margin: 0;
+  padding: 0;
+}
+
+@media  (min-width: 1000px)and (max-width: 1100px) {
+    div + p {
+        color: rgb(0, 4, 255);
+      }
+}

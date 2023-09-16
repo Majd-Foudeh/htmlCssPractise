@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./about.css" />
+  </head>
+  <body>
+    <h1>about us page</h1>
+<div id="h6">
+  
+  <h6>test text</h6>
+  <h6>test text</h6>
+  <h6>test text</h6>
+  <h6>test text</h6>
+</div>
+    <a href="#id">go</a>
+    <form 
+      id="form"
+      action=""
+      style="
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      "
+    >
+      <div>
+        <label style="display: block; margin-top: 20px" for="email"
+          >email address</label
+        >
+        <input
+        
+        onchange="functio(this.value)"
+          type="text"
+          id="email"
+          size="30"
+        />
+        <p style="display: none" id="error"></p>
+      </div>
+      <div>
+        <label style="display: block; margin-top: 20px" for="password"
+          >password</label
+        >
+        <input
+        
+        onchange="functio(this.id)"
+          type="text"
+          id="password"
+          size="30"
+        />
+        <p style="display: none" id="error"></p>
+      </div>
+
+      <button
+        style="
+          display: block;
+          margin-top: 10px;
+          padding: 10px;
+          border-radius: 5px;
+          background-color: aliceblue;
+          border: 1px solid black;
+          cursor: pointer;
+        "
+      >
+        submit
+      </button>
+    </form>
+    <div class="animation" style="display: flex; flex-direction: column">
+      <p>mas</p>
+      <ul>
+        <li><a href="http://www.google.com">google</a></li>
+        <li><a href="www.google.com">google</a></li>
+        <li><a href="www.google.com">google</a></li>
+        <li><a href="www.google.com">google</a></li>
+        <li><a href="www.google.com">google</a></li>
+        <li><a href="www.google.com">google</a></li>
+        <li><a href="www.google.com">google</a></li>
+      </ul>
+    </div>
+
+    <div style="display: flex; gap: 10px">
+      <div
+        role="button"
+        style="
+          background-color: aquamarine;
+          width: fit-content;
+          padding: 10px 30px 10px;
+          border-radius: 5px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          cursor: pointer;
+          border: 1px solid black;
+        "
+        id="hi"
+      >
+        Hi
+      </div>
+      <div
+        role="button"
+        style="
+          background-color: yellow;
+          width: fit-content;
+          padding: 10px 30px 10px;
+          border-radius: 5px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          cursor: pointer;
+          border: 1px solid black;
+        "
+        id="hi"
+      >
+        Hi
+      </div>
+    </div>
+    <p id="count"></p>
+
+    <p id="id">majd</p>
+    <script>function functio(val) {
+      console.log(val);
+    }
+    </script>
+    <script src="./index.js"></script>
+   
+  </body>
+</html>

@@ -1,0 +1,38 @@
+li{
+    list-style-type: none;
+}
+ul a{
+    
+    text-decoration: none;
+    color: black;
+    font-weight: 900 ;
+    font-size: xx-large;
+}
+div.animation{
+    animation-delay: 2s;
+    animation-name: change-color;
+    animation-duration: 5s;
+}
+
+button:hover{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+@keyframes change-color {
+    0% {
+      background-color: red;
+    }
+    50% {
+      background-color: blueviolet;
+    }
+    75% {
+        color: aliceblue;
+      background-color: blue;
+  
+    }
+    100% {
+      background-color: black;
+      color: red;
+    }
+  }
